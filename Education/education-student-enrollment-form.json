@@ -1,0 +1,310 @@
+{
+  "0": {
+    "title": "Student Enrollment Form",
+    "description": "Please complete all required fields to enroll in our program.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "name",
+        "label": "Student Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "1.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "1.3",
+            "label": "First"
+          },
+          {
+            "id": "1.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "1.6",
+            "label": "Last"
+          },
+          {
+            "id": "1.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true
+      },
+      {
+        "id": 3,
+        "type": "phone",
+        "label": "Phone Number",
+        "isRequired": true,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 4,
+        "type": "date",
+        "label": "Date of Birth",
+        "isRequired": true,
+        "dateType": "datepicker",
+        "dateFormat": "mdy"
+      },
+      {
+        "id": 5,
+        "type": "address",
+        "label": "Home Address",
+        "isRequired": true,
+        "addressType": "us",
+        "inputs": [
+          {
+            "id": "5.1",
+            "label": "Street Address"
+          },
+          {
+            "id": "5.2",
+            "label": "Address Line 2"
+          },
+          {
+            "id": "5.3",
+            "label": "City"
+          },
+          {
+            "id": "5.4",
+            "label": "State / Province"
+          },
+          {
+            "id": "5.5",
+            "label": "ZIP / Postal Code"
+          },
+          {
+            "id": "5.6",
+            "label": "Country"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "select",
+        "label": "Program of Interest",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Select a Program",
+            "value": "",
+            "isSelected": true
+          },
+          {
+            "text": "Computer Science",
+            "value": "computer-science"
+          },
+          {
+            "text": "Business Administration",
+            "value": "business-admin"
+          },
+          {
+            "text": "Engineering",
+            "value": "engineering"
+          },
+          {
+            "text": "Liberal Arts",
+            "value": "liberal-arts"
+          },
+          {
+            "text": "Nursing",
+            "value": "nursing"
+          },
+          {
+            "text": "Education",
+            "value": "education"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "radio",
+        "label": "Enrollment Type",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Full-time",
+            "value": "full-time"
+          },
+          {
+            "text": "Part-time",
+            "value": "part-time"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "select",
+        "label": "Semester Starting",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Select Semester",
+            "value": "",
+            "isSelected": true
+          },
+          {
+            "text": "Fall 2024",
+            "value": "fall-2024"
+          },
+          {
+            "text": "Spring 2025",
+            "value": "spring-2025"
+          },
+          {
+            "text": "Summer 2025",
+            "value": "summer-2025"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "section",
+        "label": "Emergency Contact Information",
+        "description": "Please provide emergency contact details."
+      },
+      {
+        "id": 10,
+        "type": "name",
+        "label": "Emergency Contact Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "10.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "10.3",
+            "label": "First"
+          },
+          {
+            "id": "10.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "10.6",
+            "label": "Last"
+          },
+          {
+            "id": "10.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "text",
+        "label": "Relationship to Student",
+        "isRequired": true,
+        "placeholder": "e.g., Parent, Guardian, Spouse"
+      },
+      {
+        "id": 12,
+        "type": "phone",
+        "label": "Emergency Contact Phone",
+        "isRequired": true,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 13,
+        "type": "section",
+        "label": "Additional Information",
+        "description": "Optional information to help us better serve you."
+      },
+      {
+        "id": 14,
+        "type": "textarea",
+        "label": "Previous Education Background",
+        "placeholder": "Please describe your educational background, including schools attended and degrees earned.",
+        "maxLength": 1000
+      },
+      {
+        "id": 15,
+        "type": "checkbox",
+        "label": "Services Needed",
+        "choices": [
+          {
+            "text": "Academic Advising",
+            "value": "academic-advising"
+          },
+          {
+            "text": "Financial Aid Assistance",
+            "value": "financial-aid"
+          },
+          {
+            "text": "Housing Information",
+            "value": "housing"
+          },
+          {
+            "text": "Student Support Services",
+            "value": "support-services"
+          },
+          {
+            "text": "Career Counseling",
+            "value": "career-counseling"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "15.1",
+            "label": "Academic Advising"
+          },
+          {
+            "id": "15.2",
+            "label": "Financial Aid Assistance"
+          },
+          {
+            "id": "15.3",
+            "label": "Housing Information"
+          },
+          {
+            "id": "15.4",
+            "label": "Student Support Services"
+          },
+          {
+            "id": "15.5",
+            "label": "Career Counseling"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "consent",
+        "label": "Terms and Conditions",
+        "checkboxLabel": "I agree to the terms and conditions and acknowledge that all information provided is accurate.",
+        "isRequired": true
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit Enrollment"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your enrollment submission! We will review your application and contact you within 2-3 business days with next steps."
+      }
+    }
+  },
+  "version": "2.9"
+}

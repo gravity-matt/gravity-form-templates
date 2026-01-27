@@ -1,0 +1,301 @@
+{
+  "0": {
+    "title": "Marketing Lead Generation Form",
+    "description": "Get in touch with us to learn more about our services and how we can help grow your business.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "name",
+        "label": "Full Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "1.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "1.3",
+            "label": "First"
+          },
+          {
+            "id": "1.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "1.6",
+            "label": "Last"
+          },
+          {
+            "id": "1.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true,
+        "placeholder": "your.email@company.com"
+      },
+      {
+        "id": 3,
+        "type": "phone",
+        "label": "Phone Number",
+        "isRequired": true,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "label": "Company Name",
+        "isRequired": true,
+        "placeholder": "Your company name"
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "label": "Job Title",
+        "isRequired": false,
+        "placeholder": "e.g., Marketing Manager"
+      },
+      {
+        "id": 6,
+        "type": "select",
+        "label": "Company Size",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Select company size",
+            "value": "",
+            "isSelected": true
+          },
+          {
+            "text": "1-10 employees",
+            "value": "1-10"
+          },
+          {
+            "text": "11-50 employees",
+            "value": "11-50"
+          },
+          {
+            "text": "51-200 employees",
+            "value": "51-200"
+          },
+          {
+            "text": "201-1000 employees",
+            "value": "201-1000"
+          },
+          {
+            "text": "1000+ employees",
+            "value": "1000+"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "select",
+        "label": "Industry",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Select your industry",
+            "value": "",
+            "isSelected": true
+          },
+          {
+            "text": "Technology",
+            "value": "technology"
+          },
+          {
+            "text": "Healthcare",
+            "value": "healthcare"
+          },
+          {
+            "text": "Finance",
+            "value": "finance"
+          },
+          {
+            "text": "Manufacturing",
+            "value": "manufacturing"
+          },
+          {
+            "text": "Retail",
+            "value": "retail"
+          },
+          {
+            "text": "Education",
+            "value": "education"
+          },
+          {
+            "text": "Real Estate",
+            "value": "real-estate"
+          },
+          {
+            "text": "Other",
+            "value": "other"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "checkbox",
+        "label": "Services of Interest",
+        "isRequired": false,
+        "choices": [
+          {
+            "text": "Digital Marketing",
+            "value": "digital-marketing"
+          },
+          {
+            "text": "SEO & Content Marketing",
+            "value": "seo-content"
+          },
+          {
+            "text": "Social Media Management",
+            "value": "social-media"
+          },
+          {
+            "text": "Paid Advertising (PPC)",
+            "value": "ppc"
+          },
+          {
+            "text": "Email Marketing",
+            "value": "email-marketing"
+          },
+          {
+            "text": "Marketing Automation",
+            "value": "automation"
+          },
+          {
+            "text": "Analytics & Reporting",
+            "value": "analytics"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "8.1",
+            "label": "Digital Marketing"
+          },
+          {
+            "id": "8.2",
+            "label": "SEO & Content Marketing"
+          },
+          {
+            "id": "8.3",
+            "label": "Social Media Management"
+          },
+          {
+            "id": "8.4",
+            "label": "Paid Advertising (PPC)"
+          },
+          {
+            "id": "8.5",
+            "label": "Email Marketing"
+          },
+          {
+            "id": "8.6",
+            "label": "Marketing Automation"
+          },
+          {
+            "id": "8.7",
+            "label": "Analytics & Reporting"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "select",
+        "label": "Monthly Marketing Budget",
+        "isRequired": false,
+        "choices": [
+          {
+            "text": "Select budget range",
+            "value": "",
+            "isSelected": true
+          },
+          {
+            "text": "Less than $5,000",
+            "value": "under-5k"
+          },
+          {
+            "text": "$5,000 - $10,000",
+            "value": "5k-10k"
+          },
+          {
+            "text": "$10,000 - $25,000",
+            "value": "10k-25k"
+          },
+          {
+            "text": "$25,000 - $50,000",
+            "value": "25k-50k"
+          },
+          {
+            "text": "$50,000+",
+            "value": "50k-plus"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "radio",
+        "label": "When are you looking to start?",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Immediately",
+            "value": "immediately"
+          },
+          {
+            "text": "Within 30 days",
+            "value": "30-days"
+          },
+          {
+            "text": "Within 3 months",
+            "value": "3-months"
+          },
+          {
+            "text": "Just exploring options",
+            "value": "exploring"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "textarea",
+        "label": "Tell us about your marketing goals and challenges",
+        "isRequired": false,
+        "placeholder": "Describe your current marketing situation, goals you'd like to achieve, and any specific challenges you're facing...",
+        "maxLength": 1000
+      },
+      {
+        "id": 12,
+        "type": "consent",
+        "label": "Marketing Consent",
+        "checkboxLabel": "I agree to receive marketing communications and understand I can unsubscribe at any time.",
+        "isRequired": true
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Get My Free Consultation"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your interest! We've received your information and one of our marketing specialists will contact you within 24 hours to discuss how we can help grow your business."
+      }
+    }
+  },
+  "version": "2.9"
+}

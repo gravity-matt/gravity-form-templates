@@ -1,0 +1,446 @@
+{
+  "0": {
+    "title": "Project Onboarding Form",
+    "description": "Welcome! Please provide the following information to help us kickstart your project. This will ensure we have everything needed to deliver exceptional results.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "section",
+        "label": "Client Information",
+        "description": "Let's start with your basic contact details."
+      },
+      {
+        "id": 2,
+        "type": "name",
+        "label": "Primary Contact Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "2.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "2.3",
+            "label": "First"
+          },
+          {
+            "id": "2.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "2.6",
+            "label": "Last"
+          },
+          {
+            "id": "2.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "label": "Company Name",
+        "isRequired": true,
+        "placeholder": "Your company name"
+      },
+      {
+        "id": 4,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true,
+        "placeholder": "your@email.com"
+      },
+      {
+        "id": 5,
+        "type": "phone",
+        "label": "Phone Number",
+        "isRequired": true,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 6,
+        "type": "website",
+        "label": "Current Website (if any)",
+        "placeholder": "https://www.yoursite.com"
+      },
+      {
+        "id": 7,
+        "type": "section",
+        "label": "Project Details",
+        "description": "Tell us about your project requirements and goals."
+      },
+      {
+        "id": 8,
+        "type": "checkbox",
+        "label": "Project Type",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Website Design",
+            "value": "website_design"
+          },
+          {
+            "text": "Website Development",
+            "value": "website_development"
+          },
+          {
+            "text": "E-commerce Store",
+            "value": "ecommerce"
+          },
+          {
+            "text": "SEO Services",
+            "value": "seo"
+          },
+          {
+            "text": "Digital Marketing",
+            "value": "marketing"
+          },
+          {
+            "text": "Logo Design",
+            "value": "logo"
+          },
+          {
+            "text": "Branding Package",
+            "value": "branding"
+          },
+          {
+            "text": "Other",
+            "value": "other"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "8.1",
+            "label": "Website Design"
+          },
+          {
+            "id": "8.2",
+            "label": "Website Development"
+          },
+          {
+            "id": "8.3",
+            "label": "E-commerce Store"
+          },
+          {
+            "id": "8.4",
+            "label": "SEO Services"
+          },
+          {
+            "id": "8.5",
+            "label": "Digital Marketing"
+          },
+          {
+            "id": "8.6",
+            "label": "Logo Design"
+          },
+          {
+            "id": "8.7",
+            "label": "Branding Package"
+          },
+          {
+            "id": "8.8",
+            "label": "Other"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "textarea",
+        "label": "Project Description",
+        "isRequired": true,
+        "placeholder": "Please describe your project goals, specific requirements, and any important details we should know..."
+      },
+      {
+        "id": 10,
+        "type": "date",
+        "label": "Desired Launch Date",
+        "dateType": "datepicker",
+        "dateFormat": "mdy"
+      },
+      {
+        "id": 12,
+        "type": "section",
+        "label": "Brand & Design Preferences",
+        "description": "Help us understand your brand and visual preferences."
+      },
+      {
+        "id": 13,
+        "type": "text",
+        "label": "Target Audience",
+        "placeholder": "Who are your ideal customers? (e.g., small business owners, millennials, etc.)"
+      },
+      {
+        "id": 14,
+        "type": "checkbox",
+        "label": "Industry/Business Type",
+        "choices": [
+          {
+            "text": "Technology",
+            "value": "technology"
+          },
+          {
+            "text": "Healthcare",
+            "value": "healthcare"
+          },
+          {
+            "text": "Finance",
+            "value": "finance"
+          },
+          {
+            "text": "Retail/E-commerce",
+            "value": "retail"
+          },
+          {
+            "text": "Restaurant/Food",
+            "value": "food"
+          },
+          {
+            "text": "Real Estate",
+            "value": "real_estate"
+          },
+          {
+            "text": "Professional Services",
+            "value": "professional"
+          },
+          {
+            "text": "Non-profit",
+            "value": "nonprofit"
+          },
+          {
+            "text": "Other",
+            "value": "other"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "14.1",
+            "label": "Technology"
+          },
+          {
+            "id": "14.2",
+            "label": "Healthcare"
+          },
+          {
+            "id": "14.3",
+            "label": "Finance"
+          },
+          {
+            "id": "14.4",
+            "label": "Retail/E-commerce"
+          },
+          {
+            "id": "14.5",
+            "label": "Restaurant/Food"
+          },
+          {
+            "id": "14.6",
+            "label": "Real Estate"
+          },
+          {
+            "id": "14.7",
+            "label": "Professional Services"
+          },
+          {
+            "id": "14.8",
+            "label": "Non-profit"
+          },
+          {
+            "id": "14.9",
+            "label": "Other"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "textarea",
+        "label": "Competitor Websites",
+        "placeholder": "List 2-3 competitor websites or sites you admire (include URLs if possible)"
+      },
+      {
+        "id": 16,
+        "type": "textarea",
+        "label": "Brand Colors & Style Preferences",
+        "placeholder": "Describe your preferred colors, overall style (modern, classic, bold, minimal), or include hex codes if you have them"
+      },
+      {
+        "id": 17,
+        "type": "section",
+        "label": "Content & Assets",
+        "description": "Information about content, images, and materials for your project."
+      },
+      {
+        "id": 18,
+        "type": "radio",
+        "label": "Content Creation",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "We will provide all content (text, images, etc.)",
+            "value": "client_provides"
+          },
+          {
+            "text": "Please help us create content",
+            "value": "agency_creates"
+          },
+          {
+            "text": "Mix - we have some content, need help with the rest",
+            "value": "mixed"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "fileupload",
+        "label": "Upload Assets",
+        "allowedExtensions": "jpg,jpeg,png,gif,pdf,doc,docx,zip",
+        "maxFileSize": 25,
+        "multipleFiles": true,
+        "description": "Upload any logos, images, brand guidelines, or other assets you'd like us to use"
+      },
+      {
+        "id": 20,
+        "type": "textarea",
+        "label": "Existing Accounts & Logins",
+        "placeholder": "List any relevant accounts we'll need access to (hosting, domain, social media, etc.) - we'll contact you separately for login details"
+      },
+      {
+        "id": 21,
+        "type": "section",
+        "label": "Additional Information",
+        "description": "Any other details that will help us serve you better."
+      },
+      {
+        "id": 22,
+        "type": "checkbox",
+        "label": "Special Requirements",
+        "choices": [
+          {
+            "text": "Mobile-first design",
+            "value": "mobile_first"
+          },
+          {
+            "text": "ADA compliance",
+            "value": "ada_compliance"
+          },
+          {
+            "text": "Multilingual support",
+            "value": "multilingual"
+          },
+          {
+            "text": "Third-party integrations",
+            "value": "integrations"
+          },
+          {
+            "text": "Custom functionality",
+            "value": "custom_functionality"
+          },
+          {
+            "text": "E-commerce features",
+            "value": "ecommerce_features"
+          },
+          {
+            "text": "SEO optimization",
+            "value": "seo_optimization"
+          },
+          {
+            "text": "Analytics setup",
+            "value": "analytics"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "22.1",
+            "label": "Mobile-first design"
+          },
+          {
+            "id": "22.2",
+            "label": "ADA compliance"
+          },
+          {
+            "id": "22.3",
+            "label": "Multilingual support"
+          },
+          {
+            "id": "22.4",
+            "label": "Third-party integrations"
+          },
+          {
+            "id": "22.5",
+            "label": "Custom functionality"
+          },
+          {
+            "id": "22.6",
+            "label": "E-commerce features"
+          },
+          {
+            "id": "22.7",
+            "label": "SEO optimization"
+          },
+          {
+            "id": "22.8",
+            "label": "Analytics setup"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "textarea",
+        "label": "Additional Comments or Questions",
+        "placeholder": "Anything else you'd like us to know or any questions you have about the process?"
+      },
+      {
+        "id": 24,
+        "type": "radio",
+        "label": "Preferred Communication Method",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Email",
+            "value": "email"
+          },
+          {
+            "text": "Phone calls",
+            "value": "phone"
+          },
+          {
+            "text": "Video meetings",
+            "value": "video"
+          },
+          {
+            "text": "Project management tool",
+            "value": "pm_tool"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "consent",
+        "label": "Project Agreement",
+        "checkboxLabel": "I confirm that all information provided is accurate and I'm ready to begin the project",
+        "isRequired": true
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit & Start Project"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for completing the onboarding form! We've received all your information and will be in touch within 24 hours to schedule our kickoff meeting and discuss the next steps. Get ready to see your vision come to life!"
+      }
+    }
+  },
+  "version": "2.9"
+}

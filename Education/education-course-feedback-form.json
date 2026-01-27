@@ -1,0 +1,379 @@
+{
+  "0": {
+    "title": "Course Assessment & Feedback Form",
+    "description": "Please provide your honest feedback about the course to help us improve our educational programs.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "text",
+        "label": "Course Name/Code",
+        "isRequired": true,
+        "placeholder": "e.g., Introduction to Psychology - PSY 101"
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "label": "Instructor Name",
+        "isRequired": true,
+        "placeholder": "Professor/Instructor's full name"
+      },
+      {
+        "id": 3,
+        "type": "select",
+        "label": "Semester/Term",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Fall 2024",
+            "value": "fall_2024"
+          },
+          {
+            "text": "Spring 2024",
+            "value": "spring_2024"
+          },
+          {
+            "text": "Summer 2024",
+            "value": "summer_2024"
+          },
+          {
+            "text": "Winter 2024",
+            "value": "winter_2024"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "name",
+        "label": "Student Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "4.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "4.3",
+            "label": "First"
+          },
+          {
+            "id": "4.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "4.6",
+            "label": "Last"
+          },
+          {
+            "id": "4.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "label": "Student ID",
+        "isRequired": true,
+        "placeholder": "Your student identification number"
+      },
+      {
+        "id": 6,
+        "type": "section",
+        "label": "Course Evaluation",
+        "description": "Please rate the following aspects of the course"
+      },
+      {
+        "id": 7,
+        "type": "survey",
+        "label": "Course Rating",
+        "inputType": "likert",
+        "gsurveyLikertEnableMultipleRows": true,
+        "gsurveyLikertEnableScoring": true,
+        "gsurveyLikertRows": [
+          {
+            "text": "Overall course quality",
+            "value": "overall_quality"
+          },
+          {
+            "text": "Course content organization",
+            "value": "content_organization"
+          },
+          {
+            "text": "Clarity of learning objectives",
+            "value": "learning_objectives"
+          },
+          {
+            "text": "Relevance of course material",
+            "value": "material_relevance"
+          },
+          {
+            "text": "Course difficulty level",
+            "value": "difficulty_level"
+          },
+          {
+            "text": "Instructor's teaching effectiveness",
+            "value": "teaching_effectiveness"
+          },
+          {
+            "text": "Instructor's knowledge of subject",
+            "value": "instructor_knowledge"
+          },
+          {
+            "text": "Instructor availability for help",
+            "value": "instructor_availability"
+          },
+          {
+            "text": "Quality of assignments/projects",
+            "value": "assignments_quality"
+          },
+          {
+            "text": "Timeliness of feedback",
+            "value": "feedback_timeliness"
+          }
+        ],
+        "choices": [
+          {
+            "text": "Excellent",
+            "value": "5",
+            "score": 5
+          },
+          {
+            "text": "Good",
+            "value": "4",
+            "score": 4
+          },
+          {
+            "text": "Average",
+            "value": "3",
+            "score": 3
+          },
+          {
+            "text": "Below Average",
+            "value": "2",
+            "score": 2
+          },
+          {
+            "text": "Poor",
+            "value": "1",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "survey",
+        "label": "Overall Course Rating",
+        "inputType": "rating",
+        "choices": [
+          {
+            "text": "1 Star",
+            "value": "1"
+          },
+          {
+            "text": "2 Stars",
+            "value": "2"
+          },
+          {
+            "text": "3 Stars",
+            "value": "3"
+          },
+          {
+            "text": "4 Stars",
+            "value": "4"
+          },
+          {
+            "text": "5 Stars",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "radio",
+        "label": "Would you recommend this course to other students?",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Definitely yes",
+            "value": "definitely_yes"
+          },
+          {
+            "text": "Probably yes",
+            "value": "probably_yes"
+          },
+          {
+            "text": "Unsure",
+            "value": "unsure"
+          },
+          {
+            "text": "Probably no",
+            "value": "probably_no"
+          },
+          {
+            "text": "Definitely no",
+            "value": "definitely_no"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "checkbox",
+        "label": "What aspects of the course were most valuable?",
+        "choices": [
+          {
+            "text": "Lectures",
+            "value": "lectures"
+          },
+          {
+            "text": "Class discussions",
+            "value": "discussions"
+          },
+          {
+            "text": "Assignments/Projects",
+            "value": "assignments"
+          },
+          {
+            "text": "Textbook/Reading materials",
+            "value": "textbook"
+          },
+          {
+            "text": "Online resources",
+            "value": "online_resources"
+          },
+          {
+            "text": "Group work",
+            "value": "group_work"
+          },
+          {
+            "text": "Guest speakers",
+            "value": "guest_speakers"
+          },
+          {
+            "text": "Practical applications",
+            "value": "practical_applications"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "10.1",
+            "label": "Lectures"
+          },
+          {
+            "id": "10.2",
+            "label": "Class discussions"
+          },
+          {
+            "id": "10.3",
+            "label": "Assignments/Projects"
+          },
+          {
+            "id": "10.4",
+            "label": "Textbook/Reading materials"
+          },
+          {
+            "id": "10.5",
+            "label": "Online resources"
+          },
+          {
+            "id": "10.6",
+            "label": "Group work"
+          },
+          {
+            "id": "10.7",
+            "label": "Guest speakers"
+          },
+          {
+            "id": "10.8",
+            "label": "Practical applications"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "section",
+        "label": "Additional Feedback",
+        "description": "Please provide detailed feedback to help us improve"
+      },
+      {
+        "id": 12,
+        "type": "textarea",
+        "label": "What did you like most about this course?",
+        "placeholder": "Please share what aspects of the course were most beneficial to your learning...",
+        "maxLength": 1000
+      },
+      {
+        "id": 13,
+        "type": "textarea",
+        "label": "What areas need improvement?",
+        "placeholder": "Please suggest specific improvements for the course content, delivery, or structure...",
+        "maxLength": 1000
+      },
+      {
+        "id": 14,
+        "type": "textarea",
+        "label": "Additional Comments",
+        "placeholder": "Any other feedback or suggestions you'd like to share...",
+        "maxLength": 500
+      },
+      {
+        "id": 15,
+        "type": "select",
+        "label": "How many hours per week did you spend on this course outside of class?",
+        "choices": [
+          {
+            "text": "Less than 1 hour",
+            "value": "less_than_1"
+          },
+          {
+            "text": "1-2 hours",
+            "value": "1_2_hours"
+          },
+          {
+            "text": "3-5 hours",
+            "value": "3_5_hours"
+          },
+          {
+            "text": "6-8 hours",
+            "value": "6_8_hours"
+          },
+          {
+            "text": "9-12 hours",
+            "value": "9_12_hours"
+          },
+          {
+            "text": "More than 12 hours",
+            "value": "more_than_12"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "consent",
+        "label": "Feedback Usage Consent",
+        "checkboxLabel": "I consent to the school using my anonymous feedback for course improvement purposes",
+        "isRequired": true
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit Assessment"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your valuable feedback! Your assessment has been submitted successfully and will help us improve our courses."
+      }
+    }
+  },
+  "version": "2.9"
+}

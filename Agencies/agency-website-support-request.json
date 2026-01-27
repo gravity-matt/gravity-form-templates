@@ -1,0 +1,234 @@
+{
+  "0": {
+    "title": "Website Support Request",
+    "description": "Please fill out this form to request support for your website. We'll get back to you as soon as possible.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "name",
+        "label": "Your Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "1.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "1.3",
+            "label": "First"
+          },
+          {
+            "id": "1.4",
+            "label": "Middle",
+            "isHidden": true
+          },
+          {
+            "id": "1.6",
+            "label": "Last"
+          },
+          {
+            "id": "1.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true
+      },
+      {
+        "id": 3,
+        "type": "phone",
+        "label": "Phone Number",
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "label": "Company/Organization Name",
+        "isRequired": true
+      },
+      {
+        "id": 5,
+        "type": "website",
+        "label": "Website URL",
+        "isRequired": true
+      },
+      {
+        "id": 6,
+        "type": "select",
+        "label": "Priority Level",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Low - General question or minor issue",
+            "value": "low"
+          },
+          {
+            "text": "Medium - Issue affecting website functionality",
+            "value": "medium"
+          },
+          {
+            "text": "High - Issue affecting business operations",
+            "value": "high"
+          },
+          {
+            "text": "Critical - Website is down or major security issue",
+            "value": "critical"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "select",
+        "label": "Support Category",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Technical Issue/Bug",
+            "value": "technical"
+          },
+          {
+            "text": "Content Updates",
+            "value": "content"
+          },
+          {
+            "text": "Design Changes",
+            "value": "design"
+          },
+          {
+            "text": "Performance/Speed",
+            "value": "performance"
+          },
+          {
+            "text": "Security Concerns",
+            "value": "security"
+          },
+          {
+            "text": "SEO/Marketing",
+            "value": "seo"
+          },
+          {
+            "text": "Training/How-to",
+            "value": "training"
+          },
+          {
+            "text": "Hosting/Domain",
+            "value": "hosting"
+          },
+          {
+            "text": "Other",
+            "value": "other"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "label": "Issue Summary",
+        "isRequired": true,
+        "placeholder": "Brief description of the issue or request"
+      },
+      {
+        "id": 9,
+        "type": "textarea",
+        "label": "Detailed Description",
+        "isRequired": true,
+        "placeholder": "Please provide as much detail as possible including steps to reproduce the issue, error messages, affected pages, etc."
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "label": "Browser/Device Information",
+        "placeholder": "e.g., Chrome on Windows, Safari on iPhone, etc."
+      },
+      {
+        "id": 11,
+        "type": "fileupload",
+        "label": "Screenshots or Files",
+        "allowedExtensions": "jpg,jpeg,png,gif,pdf,doc,docx",
+        "maxFileSize": 10
+      },
+      {
+        "id": 12,
+        "type": "radio",
+        "label": "Preferred Contact Method",
+        "choices": [
+          {
+            "text": "Email",
+            "value": "email"
+          },
+          {
+            "text": "Phone",
+            "value": "phone"
+          },
+          {
+            "text": "Video Call",
+            "value": "video"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "checkbox",
+        "label": "Best Times to Contact (if phone/video selected)",
+        "choices": [
+          {
+            "text": "Morning (9am - 12pm)",
+            "value": "morning"
+          },
+          {
+            "text": "Afternoon (12pm - 5pm)",
+            "value": "afternoon"
+          },
+          {
+            "text": "Evening (5pm - 8pm)",
+            "value": "evening"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "13.1",
+            "label": "Morning (9am - 12pm)"
+          },
+          {
+            "id": "13.2",
+            "label": "Afternoon (12pm - 5pm)"
+          },
+          {
+            "id": "13.3",
+            "label": "Evening (5pm - 8pm)"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "textarea",
+        "label": "Additional Comments",
+        "placeholder": "Any additional information that might help us assist you better"
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit Support Request"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your support request! We've received your submission and will respond within 24 hours. For critical issues, please call us directly at your earliest convenience."
+      }
+    }
+  },
+  "version": "2.9"
+}
