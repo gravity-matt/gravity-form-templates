@@ -58,6 +58,16 @@ Templates for nonprofit organizations covering donations, events, volunteers, an
 | [Newsletter Signup](Nonprofits/nonprofit-newsletter-signup.json) | Simple newsletter subscription with topic preferences |
 | [Grant Application](Nonprofits/nonprofit-grant-application.json) | Comprehensive grant application with organization details, project info, and file uploads |
 
+### Payments
+
+Templates for collecting payments, processing orders, and managing memberships.
+
+| Template | Description |
+|----------|-------------|
+| [Invoice Payment](Payments/customer-invoice-payment.json) | Collect invoice payments with custom amounts and invoice file uploads |
+| [Membership Signup](Payments/membership-payment-signup.json) | Membership registration with monthly and yearly plan options |
+| [Product Order Form](Payments/simple-product-order-form.json) | Product ordering with quantity selection, shipping/billing addresses, and payment method |
+
 ## Template Features
 
 All templates include:

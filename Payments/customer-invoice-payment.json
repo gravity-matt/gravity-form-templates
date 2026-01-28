@@ -1,0 +1,96 @@
+{
+  "0": {
+    "title": "Invoice Payment",
+    "description": "Please complete your payment and upload the invoice for reference.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "name",
+        "label": "Name",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "1.3",
+            "label": "First",
+            "name": "first"
+          },
+          {
+            "id": "1.6",
+            "label": "Last",
+            "name": "last"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "label": "Business Name",
+        "isRequired": false,
+        "placeholder": "Your Company Name"
+      },
+      {
+        "id": 3,
+        "type": "email",
+        "label": "Email",
+        "isRequired": true,
+        "placeholder": "your@email.com"
+      },
+      {
+        "id": 4,
+        "type": "phone",
+        "label": "Phone",
+        "isRequired": false,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 5,
+        "type": "product",
+        "label": "Payment Amount",
+        "inputType": "price",
+        "isRequired": true,
+        "basePrice": "$0.00"
+      },
+      {
+        "id": 6,
+        "type": "fileupload",
+        "label": "Invoice Reference",
+        "description": "Please upload the invoice document for reference",
+        "isRequired": true,
+        "allowedExtensions": "pdf,jpg,jpeg,png,doc,docx",
+        "maxFileSize": 10,
+        "maxFiles": 1
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "label": "Invoice Number",
+        "description": "Enter the invoice number (optional)",
+        "isRequired": false,
+        "placeholder": "INV-2024-001"
+      },
+      {
+        "id": 8,
+        "type": "total",
+        "label": "Total Amount Due"
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit Payment"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you! Your payment submission has been received. We will process your payment and send you a confirmation shortly."
+      }
+    }
+  },
+  "version": "2.9"
+}

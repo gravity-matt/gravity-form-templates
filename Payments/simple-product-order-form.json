@@ -1,0 +1,181 @@
+{
+  "0": {
+    "title": "Product Order Form",
+    "description": "Complete your order below. All fields are required. You will receive an order confirmation via email once your order is processed.",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 11,
+        "type": "section",
+        "label": "Product Selection",
+        "description": "Choose your product and quantity"
+      },
+      {
+        "id": 1,
+        "type": "product",
+        "label": "The Product",
+        "inputType": "singleproduct",
+        "basePrice": "$29.99",
+        "disableQuantity": false,
+        "isRequired": true
+      },
+      {
+        "id": 3,
+        "type": "quantity",
+        "label": "Quantity",
+        "isRequired": true
+      },
+      {
+        "id": 12,
+        "type": "section",
+        "label": "Contact Information",
+        "description": "Your details for order processing and communication"
+      },
+      {
+        "id": 4,
+        "type": "name",
+        "label": "Name",
+        "nameFormat": "first_last",
+        "inputs": [
+          {
+            "id": "4.3",
+            "label": "First",
+            "name": "first"
+          },
+          {
+            "id": "4.6",
+            "label": "Last",
+            "name": "last"
+          }
+        ],
+        "isRequired": true
+      },
+      {
+        "id": 5,
+        "type": "email",
+        "label": "Email",
+        "isRequired": true,
+        "description": "You'll receive order confirmation and tracking details at this email address"
+      },
+      {
+        "id": 6,
+        "type": "phone",
+        "label": "Phone",
+        "phoneFormat": "standard",
+        "isRequired": true,
+        "description": "We'll use this number to contact you about your order if needed"
+      },
+      {
+        "id": 13,
+        "type": "section",
+        "label": "Shipping & Billing",
+        "description": "Provide your billing address and shipping information"
+      },
+      {
+        "id": 7,
+        "type": "address",
+        "label": "Billing Address",
+        "addressType": "us",
+        "inputs": [
+          {
+            "id": "7.1",
+            "label": "Street Address",
+            "name": "street"
+          },
+          {
+            "id": "7.2",
+            "label": "Address Line 2",
+            "name": "street2"
+          },
+          {
+            "id": "7.3",
+            "label": "City",
+            "name": "city"
+          },
+          {
+            "id": "7.4",
+            "label": "State / Province",
+            "name": "state"
+          },
+          {
+            "id": "7.5",
+            "label": "ZIP / Postal Code",
+            "name": "zip"
+          }
+        ],
+        "isRequired": true
+      },
+      {
+        "id": 14,
+        "type": "section",
+        "label": "Order Summary & Payment",
+        "description": "Review your total and select payment method"
+      },
+      {
+        "type": "address",
+        "label": "Shipping Address",
+        "description": "Leave blank to use billing address for shipping",
+        "addressType": "us",
+        "isRequired": false,
+        "id": 8
+      },
+      {
+        "id": 2,
+        "type": "total",
+        "label": "Order Total"
+      },
+      {
+        "type": "radio",
+        "label": "Payment Method",
+        "choices": [
+          {
+            "text": "Credit Card",
+            "value": "credit_card"
+          },
+          {
+            "text": "PayPal",
+            "value": "paypal"
+          },
+          {
+            "text": "Bank Transfer",
+            "value": "bank_transfer"
+          }
+        ],
+        "isRequired": true,
+        "id": 9,
+        "description": "All payments are processed securely. You'll complete payment details on the next step."
+      },
+      {
+        "type": "textarea",
+        "label": "Order Notes",
+        "description": "Any special instructions or delivery notes (optional)",
+        "isRequired": false,
+        "rows": 3,
+        "id": 10
+      },
+      {
+        "id": 15,
+        "type": "html",
+        "label": "HTML Block",
+        "isRequired": false,
+        "content": "<p>Remove this field before publishing the form. Be sure to add a payment add-on field like Stripe, Square, PayPal, etc in order to accept payments with Gravity Forms!</p>"
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Place Order"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your order! We will process it shortly."
+      }
+    }
+  },
+  "version": "2.9"
+}
