@@ -26,6 +26,15 @@ Templates for digital agencies and service providers to manage client relationsh
 | [Client Testimonial](Agencies/agency-client-testimonial-form.json) | Collect client feedback and testimonials with satisfaction ratings and permission consent |
 | [Website Support Request](Agencies/agency-website-support-request.json) | Support ticket form with priority levels, categories, and file attachments |
 
+### Events
+
+Templates for event planning, RSVPs, and vendor management.
+
+| Template | Description |
+|----------|-------------|
+| [Event RSVP](Events/event-rsvp-form.json) | RSVP form with attendance confirmation, guest count, dietary restrictions, and accessibility needs |
+| [Vendor Request](Events/vendor-request-form.json) | Vendor application with business details, booth preferences, vendor category, and setup requirements |
+
 ### Education
 
 Templates for schools, universities, and training programs to manage student enrollment and feedback.

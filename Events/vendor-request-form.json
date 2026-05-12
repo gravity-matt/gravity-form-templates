@@ -1,0 +1,283 @@
+{
+  "0": {
+    "title": "Vendor Request Form",
+    "description": "Submit your vendor application for our large event",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "text",
+        "label": "Business Name",
+        "isRequired": true,
+        "placeholder": "Enter your business name"
+      },
+      {
+        "id": 13,
+        "type": "section",
+        "label": "Business Information",
+        "description": "Tell us about your business"
+      },
+      {
+        "id": 2,
+        "type": "name",
+        "label": "Contact Person",
+        "isRequired": true,
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "2.2",
+            "label": "Prefix",
+            "isHidden": true
+          },
+          {
+            "id": "2.3",
+            "label": "First Name"
+          },
+          {
+            "id": "2.4",
+            "label": "Middle Name",
+            "isHidden": true
+          },
+          {
+            "id": "2.6",
+            "label": "Last Name"
+          },
+          {
+            "id": "2.8",
+            "label": "Suffix",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true
+      },
+      {
+        "id": 4,
+        "type": "phone",
+        "label": "Phone Number",
+        "isRequired": true,
+        "phoneFormat": "standard"
+      },
+      {
+        "id": 5,
+        "type": "address",
+        "label": "Business Address",
+        "isRequired": true,
+        "addressType": "us",
+        "inputs": [
+          {
+            "id": "5.1",
+            "label": "Street Address"
+          },
+          {
+            "id": "5.2",
+            "label": "Street Address Line 2",
+            "isHidden": true
+          },
+          {
+            "id": "5.3",
+            "label": "City"
+          },
+          {
+            "id": "5.4",
+            "label": "State"
+          },
+          {
+            "id": "5.5",
+            "label": "ZIP Code"
+          },
+          {
+            "id": "5.6",
+            "label": "Country",
+            "isHidden": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "label": "Website URL",
+        "placeholder": "https://www.example.com"
+      },
+      {
+        "id": 7,
+        "type": "select",
+        "label": "Vendor Category",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Food & Beverage",
+            "value": "food_beverage",
+            "isSelected": false
+          },
+          {
+            "text": "Retail",
+            "value": "retail",
+            "isSelected": false
+          },
+          {
+            "text": "Services",
+            "value": "services",
+            "isSelected": false
+          },
+          {
+            "text": "Entertainment",
+            "value": "entertainment",
+            "isSelected": false
+          },
+          {
+            "text": "Crafts & Art",
+            "value": "crafts_art",
+            "isSelected": false
+          },
+          {
+            "text": "Other",
+            "value": "other",
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "textarea",
+        "label": "Business Description",
+        "isRequired": true,
+        "placeholder": "Tell us about your business and what you'll be offering at the event",
+        "maxLength": 500,
+        "description": "Provide a compelling description of your business and what makes you unique. Include details about your products/services and why you'd be a great fit for this event."
+      },
+      {
+        "id": 14,
+        "type": "section",
+        "label": "Booth Requirements",
+        "description": "Help us plan your booth setup"
+      },
+      {
+        "id": 9,
+        "type": "checkbox",
+        "label": "Booth Size Preference",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "10x10 ft",
+            "value": "10x10"
+          },
+          {
+            "text": "10x20 ft",
+            "value": "10x20"
+          },
+          {
+            "text": "20x20 ft",
+            "value": "20x20"
+          },
+          {
+            "text": "Larger (Custom)",
+            "value": "custom"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "9.1",
+            "label": "10x10 ft"
+          },
+          {
+            "id": "9.2",
+            "label": "10x20 ft"
+          },
+          {
+            "id": "9.3",
+            "label": "20x20 ft"
+          },
+          {
+            "id": "9.4",
+            "label": "Larger (Custom)"
+          }
+        ],
+        "description": "Select all sizes you'd be interested in. Pricing varies by size and will be provided based on your selection."
+      },
+      {
+        "id": 10,
+        "type": "radio",
+        "label": "Do you require electricity?",
+        "choices": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "description": "Electrical hookup incurs an additional fee. Select 'Yes' only if your booth setup requires power."
+      },
+      {
+        "id": 11,
+        "type": "fileupload",
+        "label": "Product/Service Photos",
+        "allowedExtensions": "jpg,jpeg,png,pdf",
+        "maxFileSize": 25,
+        "description": "Upload high-quality photos showcasing your products or services. These help us evaluate your application and may be used for event promotion."
+      },
+      {
+        "id": 12,
+        "type": "consent",
+        "label": "Agreement",
+        "checkboxLabel": "I agree to the vendor requirements and terms",
+        "isRequired": true,
+        "size": "large",
+        "visibility": "visible",
+        "validateState": true,
+        "descriptionPlacement": "below",
+        "inputs": [
+          {
+            "id": "12.1",
+            "label": "Consent",
+            "name": ""
+          },
+          {
+            "id": "12.2",
+            "label": "Text",
+            "name": "",
+            "isHidden": true
+          },
+          {
+            "id": "12.3",
+            "label": "Description",
+            "name": "",
+            "isHidden": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Checked",
+            "value": "1",
+            "isSelected": false,
+            "price": ""
+          }
+        ],
+        "description": "By checking this box, you acknowledge that you've read and agree to abide by all vendor requirements, including setup times, booth guidelines, and payment terms."
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit Vendor Request"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for submitting your vendor request! We will review your application and contact you within 5 business days."
+      }
+    }
+  },
+  "version": "2.9"
+}

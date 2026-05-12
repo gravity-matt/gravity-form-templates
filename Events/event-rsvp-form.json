@@ -1,0 +1,196 @@
+{
+  "0": {
+    "title": "Event RSVP Form",
+    "description": "Please RSVP for our upcoming event",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "markupVersion": 2,
+    "fields": [
+      {
+        "id": 1,
+        "type": "name",
+        "label": "Full Name",
+        "isRequired": true,
+        "nameFormat": "simple",
+        "inputs": [
+          {
+            "id": "1.3",
+            "label": "First Name",
+            "isHidden": false
+          },
+          {
+            "id": "1.6",
+            "label": "Last Name",
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "section",
+        "label": "Contact Information",
+        "description": "Please provide your contact details"
+      },
+      {
+        "id": 2,
+        "type": "email",
+        "label": "Email Address",
+        "isRequired": true
+      },
+      {
+        "id": 3,
+        "type": "phone",
+        "label": "Phone Number",
+        "phoneFormat": "standard",
+        "description": "Optional. We may contact you if we need to reach you about the event."
+      },
+      {
+        "id": 10,
+        "type": "section",
+        "label": "RSVP Response",
+        "description": "Please let us know about your attendance"
+      },
+      {
+        "id": 4,
+        "type": "radio",
+        "label": "Will you be attending?",
+        "isRequired": true,
+        "choices": [
+          {
+            "text": "Yes, I will attend",
+            "value": "yes"
+          },
+          {
+            "text": "No, I cannot attend",
+            "value": "no"
+          },
+          {
+            "text": "Maybe, I will let you know",
+            "value": "maybe"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "section",
+        "label": "Event Preferences",
+        "description": "Help us plan the perfect event for you"
+      },
+      {
+        "id": 5,
+        "type": "number",
+        "label": "Number of Guests (including yourself)",
+        "rangeMin": 1,
+        "rangeMax": 10,
+        "isRequired": true,
+        "description": "Please include yourself in the total count (maximum 10 people)."
+      },
+      {
+        "id": 6,
+        "type": "checkbox",
+        "label": "Dietary Restrictions",
+        "choices": [
+          {
+            "text": "Vegetarian",
+            "value": "vegetarian"
+          },
+          {
+            "text": "Vegan",
+            "value": "vegan"
+          },
+          {
+            "text": "Gluten-Free",
+            "value": "gluten-free"
+          },
+          {
+            "text": "Dairy-Free",
+            "value": "dairy-free"
+          },
+          {
+            "text": "Nut Allergy",
+            "value": "nut-allergy"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "6.1",
+            "label": "Vegetarian"
+          },
+          {
+            "id": "6.2",
+            "label": "Vegan"
+          },
+          {
+            "id": "6.3",
+            "label": "Gluten-Free"
+          },
+          {
+            "id": "6.4",
+            "label": "Dairy-Free"
+          },
+          {
+            "id": "6.5",
+            "label": "Nut Allergy"
+          }
+        ],
+        "description": "Select all that apply. This helps us plan appropriate menu options for the event."
+      },
+      {
+        "id": 7,
+        "type": "textarea",
+        "label": "Special Requests or Comments",
+        "maxLength": 500,
+        "placeholder": "Please let us know if you have any special requests..."
+      },
+      {
+        "id": 8,
+        "type": "consent",
+        "label": "Consent",
+        "checkboxLabel": "I agree to receive updates about this event",
+        "description": "We'll send you event reminders and updates.",
+        "isRequired": false,
+        "descriptionPlacement": "below",
+        "inputs": [
+          {
+            "id": "8.1",
+            "label": "Consent",
+            "name": ""
+          },
+          {
+            "id": "8.2",
+            "label": "Text",
+            "name": "",
+            "isHidden": true
+          },
+          {
+            "id": "8.3",
+            "label": "Description",
+            "name": "",
+            "isHidden": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Checked",
+            "value": "1",
+            "isSelected": false
+          }
+        ]
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit RSVP"
+    },
+    "confirmations": {
+      "default": {
+        "id": "default",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thank you for your RSVP! We look forward to seeing you at the event. A confirmation email will be sent to you shortly."
+      }
+    }
+  },
+  "version": "2.9"
+}
